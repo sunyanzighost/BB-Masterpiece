@@ -1,0 +1,58 @@
+@media screen and (min-width: 480px) {
+/********************************************
+Contact Page: Two Column Layout
+********************************************/
+  #first_column {
+    width: 50%;
+    float: left;
+  }
+  
+  #second_column {
+    width: 40%;
+    float: right;
+  }
+
+/********************************************
+YanZi Page: Section One: Two Column Layout
+********************************************/
+  #yanzi_first_column {
+    width: 60%;
+    float: left;
+  }
+  
+  #yanzi_second_column {
+    width: 30%;
+    float: right;
+  }
+  
+  #yanzi_third_column li {
+    background-color: #b3ecff;
+    width: 28.33333%;
+    margin: 2.5%;
+    float:left;
+    display:block;
+  }
+  
+  #yanzi_third_column li:nth-child(2n+1) {
+    clear:none;
+  }
+  
+  #yanzi_third_column li:nth-child(3n+1) {
+    clear:left;
+  }
+
+ 
+/********************************************
+Magic Legion Page: Two Column Layout
+********************************************/
+  #magic_legion_first_column {
+    width: 30%;
+    float: left;
+  }
+  
+  #magic_legion_second_column {
+    width: 70%;
+    float: right;
+  }
+  
+}
